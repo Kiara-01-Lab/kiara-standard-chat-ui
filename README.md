@@ -1,4 +1,4 @@
-# XYZ Chat — UI Mockup
+# Standard Chat UI
 
 A zero-dependency, single-file HTML mockup of a Claude-style AI chat interface.  
 Accessible (WCAG AA), mobile-friendly, dark-mode ready. Drop the file in a browser — it just works.
