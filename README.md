@@ -5,6 +5,38 @@ Accessible (WCAG AA), mobile-friendly, dark-mode ready. Drop the file in a brows
 
 ---
 
+## Why a standard UI?
+
+### Ship faster, argue less
+
+Every new project that starts from scratch spends the first few days on the same decisions: layout, colors, font sizes, button states, mobile breakpoints. With a standard UI, those decisions are made once and reused everywhere. New features go straight to building logic — not rebuilding chrome.
+
+### Consistency across products
+
+When every Kiara-built interface shares the same structure, users only learn it once. Switching between tools feels familiar, not foreign. That trust compounds — users explore more, make fewer errors, and need less support.
+
+### Accessibility for free
+
+WCAG AA compliance (focus rings, ARIA labels, touch targets, contrast ratios) is hard to retrofit. It's much cheaper to inherit it from a baseline that already passes. Every new project built on this UI starts compliant instead of starting broken.
+
+### Easier handoffs
+
+Designers, developers, and external collaborators share a common reference point. "Use the standard chip component" is a one-sentence brief. Without a standard, the same conversation takes a meeting.
+
+### One fix, everywhere
+
+When a bug or improvement is found — a focus state that's too faint, a touch target that's too small — fixing it in the standard propagates to every product built on it. Without a standard, the same bug lives independently in ten places.
+
+| Without standard UI | With standard UI |
+|---|---|
+| 2–4 days on setup per project | Start on day one |
+| Inconsistent look across tools | Instantly recognisable |
+| Accessibility retrofitted later | Compliant from the start |
+| Each team reinvents the same patterns | Shared vocabulary, faster reviews |
+| Bugs fixed project-by-project | Fix once, benefit everywhere |
+
+---
+
 ## Quick start
 
 ```bash
